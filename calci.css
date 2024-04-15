@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Poppins:wght@400;700&family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&family=Varela+Round&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 12px 0px;
+}
+
+.row input{
+    padding: 10px 38px;
+    width: 250px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+}
